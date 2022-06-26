@@ -272,3 +272,11 @@ h1, h2, h3, h4, h5, h6, p {
     background-color: #828282;
     color: #fff;
 }
+
+@media only screen and (max-width: 700px) {
+    /* For mobile phones: */
+    [class*="col-"] {
+      width: 100%;
+    }
+    
+}
